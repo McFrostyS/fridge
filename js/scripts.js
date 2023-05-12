@@ -14,7 +14,7 @@ async function obtenerImagenAlimento(nombreAlimento) {
         return imagen;
     } catch (error) {
         console.error("Error al obtener la imagen del alimento:", error);
-        const imagenDefault = "/img/imagenDefault.jpeg"; // Si no se puede obtener la imagen, se usa una imagen por defecto
+        const imagenDefault = "img/imagenDefault.jpeg"; // Si no se puede obtener la imagen, se usa una imagen por defecto
         return imagenDefault;
     }
 }
