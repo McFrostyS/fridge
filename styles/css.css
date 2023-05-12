@@ -1,0 +1,131 @@
+:root {
+    --primaryColor: #eeeeee;
+    --secondaryColor: #a639ff;
+    --thirdColor: #deddda;
+    --fourthColor: #da5fff;
+    --fifthyColor: #f7f7f7;
+
+    --dmSans: "DM Sans", sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--dmSans);
+}
+
+body {
+    background-color: var(--primaryColor);
+}
+
+header {
+    background-image: url("../img/banner.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* Estilos para el container, paises y graficas */
+
+h2 {
+    font-size: 4rem;
+    font-weight: 100;
+    text-align: center;
+    margin: 20px 0;
+    color: var(--secondaryColor);
+}
+
+h3 {
+    font-size: 2rem;
+    font-weight: 100;
+    text-align: center;
+    margin: 20px 0;
+    color: var(--secondaryColor);
+}
+
+hr {
+    margin: 20px 0;
+    color: var(--thirdColor);
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.new {
+    font-size: 1.2rem;
+    font-weight: 100;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border: 1px solid var(--thirdColor);
+    border-radius: 15px;
+    background-color: var(--secondaryColor);
+    cursor: pointer;
+    width: 10rem;
+    color: var(--primaryColor);
+}
+
+.new:hover {
+    background-color: var(--fourthColor);
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    font-size: 1.5rem;
+    font-weight: 100;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.products p {
+    width: 240px;
+    height: 250px;
+    padding: 10px;
+    margin: 3px;
+    background-color: var(--fifthyColor);
+}
+
+.name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--secondaryColor);
+}
+
+.products p span img {
+    width: 140px;
+    height: 100px;
+    border-radius: 10px;
+}
+
+input[type="text"] {
+    width: 200px;
+    border-radius: 10px;
+    border: 1px solid var(--thirdColor);
+    padding: 10px 15px;
+    height: 25px;
+    -webkit-transition: width 0.6s ease-in-out;
+    transition: width 0.6s ease-in-out;
+}
+
+/* Estilos para el footer */
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    background-color: var(--secondaryColor);
+    color: #fff;
+}
