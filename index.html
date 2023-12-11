@@ -9,35 +9,53 @@
         <meta name="keywords" content="HTML, CSS, JavaScript, Fridge" />
         <title>Fridge</title>
         <!-- FONT AWESOME -->
-        <script src="https://kit.fontawesome.com/0ce218d0bf.js" crossorigin="anonymous"></script>
+        <script
+            src="https://kit.fontawesome.com/0ce218d0bf.js"
+            crossorigin="anonymous"
+        ></script>
         <!-- GOOGLE FONTS -->
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&display=swap" rel="stylesheet" />
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+        <link
+            href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css"
+        />
         <!-- CSS -->
-        <link rel="stylesheet" href="styles/css.css" />
         <link rel="stylesheet" href="styles/normalize.css" />
+        <link rel="stylesheet" href="styles/css.css" />
         <!-- TWITTER -->
         <meta property="twitter:card" content="summary_large_image" />
-        <meta property="twitter:url" content="https://mcfrostys.github.io/fridge" />
+        <meta
+            property="twitter:url"
+            content="https://mcfrostys.github.io/fridge"
+        />
         <meta property="twitter:title" content="Sergio Aguado Fridge" />
         <meta
             property="twitter:description"
-            content="This is a firdge website. Here you can Organize and keep your food under control."
+            content="This is a fridge website. Here you can Organize and keep your food under control."
         />
-        <meta property="twitter:image" content="https://mcfrostys.github.io/fridge/img/fridge.png" />
+        <meta
+            property="twitter:image"
+            content="https://mcfrostys.github.io/fridge/img/fridge.png"
+        />
         <!-- FACEBOOK -->
         <meta property="og:title" content="Sergio Aguado Fridge" />
         <meta property="og:url" content="https://mcfrostys.github.io/fridge" />
         <meta
             property="og:description"
-            content="This is a firdge website. Here you can Organize and keep your food under control."
+            content="This is a fridge website. Here you can Organize and keep your food under control."
         />
-        <meta property="og:image" content="https://mcfrostys.github.io/fridge/img/fridge.png" />
+        <meta
+            property="og:image"
+            content="https://mcfrostys.github.io/fridge/img/fridge.png"
+        />
     </head>
     <body>
-        <header id="countriesHeader">
+        <header>
             <h2>Fridge</h2>
         </header>
 
@@ -45,10 +63,34 @@
             <div class="wrapper">
                 <div class="form">
                     <h3>Add your food here!</h3>
-                    <input type="text" name="name" class="nombre" placeholder="Name" />
-                    <input type="text" name="quantity" class="cantidad" placeholder="Quantity" />
-                    <input type="text" name="type" class="tipo" placeholder="Type" />
-                    <input type="text" name="date" class="caduca" placeholder="Caduca (in seconds)" />
+                    <input
+                        type="text"
+                        name="name"
+                        class="nombre"
+                        placeholder="Name"
+                        required
+                    />
+                    <input
+                        type="text"
+                        name="quantity"
+                        class="cantidad"
+                        placeholder="Quantity"
+                        required
+                    />
+                    <input
+                        type="text"
+                        name="type"
+                        class="tipo"
+                        placeholder="Type"
+                        required
+                    />
+                    <input
+                        type="text"
+                        name="date"
+                        class="caduca"
+                        placeholder="Caduca (in seconds)"
+                        required
+                    />
 
                     <button class="new">New product</button>
                 </div>

@@ -5,7 +5,7 @@
     --fourthColor: #da5fff;
     --fifthyColor: #f7f7f7;
 
-    --dmSans: "DM Sans", sans-serif;
+    --dmSans: 'DM Sans', sans-serif;
 }
 
 * {
@@ -20,7 +20,7 @@ body {
 }
 
 header {
-    background-image: url("../img/banner.webp");
+    background-image: url('../img/banner.webp');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -29,16 +29,16 @@ header {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    color: var(--primaryColor);
 }
-
-/* Estilos para el container, paises y graficas */
 
 h2 {
     font-size: 4rem;
     font-weight: 100;
     text-align: center;
     margin: 20px 0;
-    color: var(--secondaryColor);
+    color: var(--primaryColor);
+    text-shadow: 2px 2px 0 var(--secondaryColor), 4px 4px 0 var(--thirdColor);
 }
 
 h3 {
@@ -109,7 +109,7 @@ hr {
     border-radius: 10px;
 }
 
-input[type="text"] {
+input[type='text'] {
     width: 200px;
     border-radius: 10px;
     border: 1px solid var(--thirdColor);
